@@ -46,8 +46,6 @@ export class SignatureMiddleware implements NestMiddleware {
       );
     }
 
-    console.log('Timestamp check:', now, timestamp, Math.abs(now - timestamp));
-
     // if (Math.abs(now - timestamp) > MAX_CLOCK_SKEW_MS) {
     //   throw new HttpException(
     //     'Timestamp outside allowed window',
