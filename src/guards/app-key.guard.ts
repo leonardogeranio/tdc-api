@@ -5,7 +5,7 @@ import {
   UnauthorizedException,
   ForbiddenException,
 } from '@nestjs/common';
-import { findApplicationByKey } from 'src/app.config';
+import { findApplicationByKey } from '../app.config';
 
 @Injectable()
 export class AppKeyGuard implements CanActivate {

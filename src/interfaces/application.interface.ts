@@ -4,5 +4,6 @@ export interface Application {
   id: ApplicationId;
   name: string;
   apiKey: string;
+  secret: string;
   active: boolean;
 }
