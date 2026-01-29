@@ -7,7 +7,6 @@ import { PunResponseDTO } from './pun-response.dto';
 
 @Controller('puns')
 export class PunsController {
-
   constructor(private readonly punsService: PunsService) {}
 
   @Get()
